@@ -66,14 +66,14 @@
 }
 //10. Create a while loop that counts down from 10 and increments `majorKey` by 1.
   i = 10
-  while (i<10) {
+  while (i < 10) {
   majorKey = majorKey + 1;
 }
 
 //11. Create a function that accepts an argument `val`. The function should convert `val` to a string, then drop the first character off the string, but only if there
 //is more than one character in the string. Return `val` and set the `majorKey` to the returned value.
 
-function valConvert(val) {
+  function valConvert(val) {
     val = majorKey.toString();
 
     if(val.length > 1){
@@ -82,8 +82,13 @@ function valConvert(val) {
     return majorKey;
 }
 
+//substring(1, val.length)
 //12. Call the function.
+
   valConvert();
+
 //13. Console log `majorKey`. Create an index.html file, link in this Javascript file. Load in the browser, check the value.
+
   console.log(majorKey);
+
 //14. Your answer should be a string value that equals 7. Is that what you got?
